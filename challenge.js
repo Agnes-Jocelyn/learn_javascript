@@ -7,8 +7,7 @@ const myContacts = [
         favorite: true,
         rating: 9,
         tags:['popular','cool']
-    },
-    {
+    },{ 
         id : 2,
         name: 'Betty Brave',
         phone : '+62 812 242424',
@@ -36,5 +35,6 @@ console.log(myContacts);
 // console.log(newContact.length);
 
 /// delete contact 
-// myContacts.pop()
-// console.log(myContacts);
+myContacts.pop()
+console.log(myContacts);
+
