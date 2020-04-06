@@ -1,3 +1,4 @@
+```Javascript
 const myContacts = [
     {
         id: 1,
@@ -20,19 +21,21 @@ const myContacts = [
         email: ' gamma@gacurio.dev'
     }
 ]
+```
 
-// create contact console with method show contact ,add contact, filter contact and delete contact
+# Create contact console with method show contact ,add contact, filter contact and delete contact
 
-/// Add contact 
+```Javascript
+// add Contact
 myContacts.push({id : 4, name: 'Agnes Jocelyn', phone : '+63 122 111111', email : 'Agnesjocelyn@gmail.com'}, 
                 {id : 5, name : 'Alvi Geovanny', phone : '+62 444 222222', email : 'AlviGeo@gmail.com'}, 
                 {id : 6, name : 'Vincent', phone : '+62 655 999999', email : 'Vincent@gmail.com'})
 console.log(myContacts);
 
 /// filter contact 
-// const newContact = myContsacts.filter(item => item.id > 2)
-// console.log(newContact);
-// console.log(newContact.length);
+const newContact = myContsacts.filter(item => item.id > 2)
+console.log(newContact);
+console.log(newContact.length);
 
 /// delete contact 
 myContacts.pop()
